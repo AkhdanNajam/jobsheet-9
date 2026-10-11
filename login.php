@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Petugas - SIMPUS-Mini</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>SIMPUS-Mini</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Login Petugas</h2>
+
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Masuk</button>
+        </form>
+
+        <p>Belum punya akun? <a href="#">Daftar di sini</a></p>
+    </section>
+</main>
+
+</body>
+</html>
